@@ -46,4 +46,21 @@ print(f"fib({termo}) = {fib(termo)}")
 ###########################################
 '''
 
+#
+#############################################################################################################################
+print('#############################################')
+print("#                parte 2                    #")
+print("#############################################")
+#
+print("comentar o código abaixo para ver a parte 2")
+
+# aplicando a condições iniciais como parada da recursividade
+def fib(termo):
+  if termo == 1:
+    return 0
+  elif termo == 2:
+    return 1
+  return fib(termo-1) + fib(termo-2)
+
+print(f"fib({termo}) = {fib(termo)}") # printa o resultado do 5° termo da sequencia de Fibonacci valor -> 3
 
