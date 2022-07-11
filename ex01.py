@@ -34,7 +34,7 @@ print("#############################################")
 print("comentar o código abaixo para ver a parte 2")
 '''
 # aplicando a fomula
-def fib(termo):
+def fib(termo): 
   return fib(termo-1) + fib(termo-2)
 
 print(f"fib({termo}) = {fib(termo)}")
@@ -56,11 +56,11 @@ print("comentar o código abaixo para ver a parte 2")
 
 # aplicando a condições iniciais como parada da recursividade
 def fib(termo):
-  if termo == 1:
+  if termo == 1: # se o termo for 1, retorna 0
     return 0
-  elif termo == 2:
+  elif termo == 2: # se o termo for 2, retorna 1
     return 1
-  return fib(termo-1) + fib(termo-2)
+  return fib(termo-1) + fib(termo-2) # se não, retorna o valor do termo anterior + o termo anterior ao anterior
 
 print(f"fib({termo}) = {fib(termo)}") # printa o resultado do 5° termo da sequencia de Fibonacci valor -> 3
-
+# fib(5) = 3
