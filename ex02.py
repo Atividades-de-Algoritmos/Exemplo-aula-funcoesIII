@@ -27,7 +27,7 @@ print("#############################################")
 #
 
 def fib1(termo): # escreve a série de Fibonacci até o termo n-ésimo
-  a, b = 0, 1 # inicializa a série de Fibonacci com 0 e 1 como primeiros termos
+  a, b = 1, 0 # inicializa a série de Fibonacci com 0 e 1 como primeiros termos
   while termo > 0: # enquanto o termo não for atingido
     print(b, end=' ') # imprime o termo atual da série
     a, b = b, a + b # atualiza os termos da série de Fibonacci
@@ -36,6 +36,7 @@ def fib1(termo): # escreve a série de Fibonacci até o termo n-ésimo
 # saida de dados -> série de Fibonacci
 print("Série de Fibonacci:")
 fib1(termo) # chama a função fib1 para imprimir a série de Fibonacci até o termo n-ésimo
+print()
 print("--------------------------------------------")
 #
 #############################################################################################################################
@@ -46,7 +47,7 @@ print("#############################################")
 
 def fib2(termo): # escreve a série de Fibonacci até o termo n-ésimo
   resultado = [] # inicializa a lista de resultado da série de Fibonacci
-  a, b = 0, 1 # inicializa a série de Fibonacci com 0 e 1 como primeiros termos
+  a, b = 1, 0 # inicializa a série de Fibonacci com 0 e 1 como primeiros termos
   while termo > 0: # enquanto o termo não for atingido
     resultado.append(b) # adiciona o termo atual da série na lista de resultado
     a, b = b, a + b # atualiza os termos da série de Fibonacci
