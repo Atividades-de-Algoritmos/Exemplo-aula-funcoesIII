@@ -31,6 +31,7 @@ print('#############################################')
 print("#                parte 1                    #")
 print("#############################################")
 #
+print("comentar o código abaixo para ver a parte 2")
 '''
 # aplicando a fomula
 def fib(termo):
