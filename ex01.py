@@ -85,8 +85,17 @@ print("#############################################")
 def fib(termo):
   if termo == 0: # se o termo for 0, retorna nada
     return # ajustando a função para não retorna nada se termo = ZERO
-  elif termo == 1:
+  elif termo == 1: # se o termo for 1, retorna 0
     return 0
-  elif termo == 2:
+  elif termo == 2:  # se o termo for 2, retorna 1
     return 1
-  return fib(termo-1) + fib(termo-2)
+  return fib(termo-1) + fib(termo-2) # se não, retorna o valor do termo anterior + o termo anterior ao anterior
+
+
+# exemplo de saída
+print("saida 1:")
+print("----------------------------------------------------")
+for i in range(1, termo+1): # range(inicio, fim + 1): o fim + 1 é para incluir o fim
+  print(f"fib({i}) = {fib(i)}") # ex: se entrar com 5 então o loop vai gerar os 5 termos da sequencia de Fibonacci
+
+
