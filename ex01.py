@@ -55,6 +55,7 @@ print("#############################################")
 #
 print("comentar o código abaixo para ver a parte 3")
 
+'''
 # aplicando a condições iniciais como parada da recursividade
 def fib(termo):
   if termo == 1: # se o termo for 1, retorna 0
@@ -68,5 +69,8 @@ print(f"fib({termo}) = {fib(termo)}") # ex: se entrar com 5
 # fib(5) = 3
 
 ###########################################
-# essa solução retorna apenas o termo correspondente ao número de entrada
+# essa solução retorna apenas o termo correspondente ao número de entrada pelo usuário
+# não está errado, mas podemos melhorar
+###########################################
+'''
 
