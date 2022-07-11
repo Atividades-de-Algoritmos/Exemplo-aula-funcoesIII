@@ -71,6 +71,7 @@ print(f"fib({termo}) = {fib(termo)}") # ex: se entrar com 5
 ###########################################
 # essa solução retorna apenas o termo correspondente ao número de entrada pelo usuário
 # não está errado, mas podemos melhorar
+# podemos usar o laço de repetição for para gerar a sequencia de Fibonacci
 ###########################################
 '''
 
@@ -80,3 +81,12 @@ print('#############################################')
 print("#                parte 3                    #")
 print("#############################################")
 #
+# aplicando a condições iniciais como parada da recursividade
+def fib(termo):
+  if termo == 0: # se o termo for 0, retorna nada
+    return # ajustando a função para não retorna nada se termo = ZERO
+  elif termo == 1:
+    return 0
+  elif termo == 2:
+    return 1
+  return fib(termo-1) + fib(termo-2)
