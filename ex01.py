@@ -38,6 +38,7 @@ def fib(termo):
   return fib(termo-1) + fib(termo-2)
 
 print(f"fib({termo}) = {fib(termo)}")
+
 ###########################################
 # gera o seguinte erro
 #    return fib(termo-1) + fib(termo-2)
@@ -52,7 +53,7 @@ print('#############################################')
 print("#                parte 2                    #")
 print("#############################################")
 #
-print("comentar o código abaixo para ver a parte 2")
+print("comentar o código abaixo para ver a parte 3")
 
 # aplicando a condições iniciais como parada da recursividade
 def fib(termo):
@@ -62,5 +63,10 @@ def fib(termo):
     return 1
   return fib(termo-1) + fib(termo-2) # se não, retorna o valor do termo anterior + o termo anterior ao anterior
 
-print(f"fib({termo}) = {fib(termo)}") # printa o resultado do 5° termo da sequencia de Fibonacci valor -> 3
+print(f"fib({termo}) = {fib(termo)}") # ex: se entrar com 5
+# printa o resultado do 5° termo da sequencia de Fibonacci valor -> 3
 # fib(5) = 3
+
+###########################################
+# essa solução retorna apenas o termo correspondente ao número de entrada
+
