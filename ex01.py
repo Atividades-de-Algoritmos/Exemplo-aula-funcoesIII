@@ -98,4 +98,17 @@ print("----------------------------------------------------")
 for i in range(1, termo+1): # range(inicio, fim + 1): o fim + 1 é para incluir o fim
   print(f"fib({i}) = {fib(i)}") # ex: se entrar com 5 então o loop vai gerar os 5 termos da sequencia de Fibonacci
 
+'''
+# exemplo de saída
 
+saida 1:
+----------------------------------------------------
+fib(1) = 0
+fib(2) = 1
+fib(3) = 1
+fib(4) = 2
+fib(5) = 3
+fib(6) = 5
+fib(7) = 8
+fib(8) = 13
+'''
