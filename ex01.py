@@ -20,6 +20,8 @@
 # 6 -> 3 + 2 = 5
 # 7 -> 5 + 3 = 8
 # termo n -> termo n-1 + termo n-2 = ...
+
+# função recursiva
 # fib(n) -> fib(n-1) + fin(n-2) + ...
 
 # entrada de dados -> número de termos da sequencia de Fibonacci
