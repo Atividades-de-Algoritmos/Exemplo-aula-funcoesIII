@@ -26,3 +26,13 @@
 # enquanto as variáveis globais podem ser acessadas em todo o corpo do programa por todas as funções.
 #  Quando você chama uma função, as variáveis declaradas dentro dela são trazidas para o escopo.
 
+# exemplo:
+total = 0 # variável global
+
+def soma(x, y):  # função que soma dois números e armazena o resultado em uma variável local total
+  total = x + y # variável local total que é acessada apenas dentro da função soma e não pode ser acessada fora
+  return total # retorna o valor da variável local total para a função soma
+
+# chamando a função soma
+total = soma(10, 20) # chamando a função soma e armazenando o resultado em total (variável global)
+print(total) # imprime o valor da variável global total
