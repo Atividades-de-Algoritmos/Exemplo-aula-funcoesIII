@@ -50,3 +50,9 @@ print(dobro2(2))
 
 # Os formulários lambda podem receber qualquer número de argumentos, mas retornam apenas um valor
 # na forma de uma expressão. Eles não podem conter comandos ou várias expressões.
+
+
+# Uma função anônima não pode ser uma chamada direta para imprimir porque lambda requer uma expressão.
+# As funções do Lambda têm seu próprio namespace local e não podem acessar variáveis que não estejam na lista de parâmetros e no namespace global.
+# Embora pareça que os lambda são uma versão de uma linha de uma função, eles não são equivalentes a instruções embutidas em C ou C++, cuja finalidade é passar a alocação de pilha de função durante a invocação por motivos de desempenho.
+#
