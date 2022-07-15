@@ -38,3 +38,15 @@ print(dobro2(2))
 #####   lambda parâmetros:expressão   #########
 # Sintaxe:
 # lambda [arg1 [,arg2,.....argn]]:expressão
+
+# Observe que em vez de usar def, a palavra-chave lambda é usada.
+# Não são necessários parênteses. Qualquer coisa após a palavra-chave lambda
+# é tratada como um parâmetro. Os dois pontos são usados para separar parâmetros
+# e expressões. No nosso caso, a expressão é x*2.
+# Não há necessidade de usar a palavra-chave return, o lambda faz isso automaticamente
+
+# Você pode usar a palavra-chave lambda para criar pequenas funções anônimas. Essas funções são
+# chamadas de anônimas porque não são declaradas da maneira padrão usando a palavra-chave def.
+
+# Os formulários lambda podem receber qualquer número de argumentos, mas retornam apenas um valor
+# na forma de uma expressão. Eles não podem conter comandos ou várias expressões.
