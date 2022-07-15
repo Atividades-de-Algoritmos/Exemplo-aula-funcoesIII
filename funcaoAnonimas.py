@@ -24,3 +24,17 @@ def dobro1(x):  # função que duplica um número
   return x * 2  # retorna o dobro do número
 
 print(dobro1(2)) # imprime 4
+
+
+
+# Veja como fica como uma função lambda:
+
+dobro2 = lambda x: x*2 # definindo a função lambda
+
+print(dobro2(2))
+
+
+# No exemplo acima, o lambda é construído como:
+#####   lambda parâmetros:expressão   #########
+# Sintaxe:
+# lambda [arg1 [,arg2,.....argn]]:expressão
