@@ -56,3 +56,16 @@ print(dobro2(2))
 # As funções do Lambda têm seu próprio namespace local e não podem acessar variáveis que não estejam na lista de parâmetros e no namespace global.
 # Embora pareça que os lambda são uma versão de uma linha de uma função, eles não são equivalentes a instruções embutidas em C ou C++, cuja finalidade é passar a alocação de pilha de função durante a invocação por motivos de desempenho.
 #
+
+# exemplos:
+def parImpar1(valor): # função que retorna se um número é par ou impar
+  if (valor % 2) == 0: # se o resto da divisão do número por 2 for 0, então o número é par
+    return "par"
+  else: # se o resto da divisão for diferente de 0, então o número é impar
+    return "impar"
+
+# ou:
+parImpar2 = (lambda x: 'Impar' if (x % 2) else 'Par') # definindo a função lambda como parImpar2 (lambda x: 'Impar' if (x % 2) else 'Par')
+
+print(parImpar2(2)) # imprime "Par"
+print(parImpar2(3)) # imprime "Impar"
